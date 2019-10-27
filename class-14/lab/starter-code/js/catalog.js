@@ -62,7 +62,7 @@ function updateCartPreview() {
   var cartOutput = document.getElementById('cartContents');
   var itemElement = document.createElement('div');
   cartOutput.appendChild(itemElement);
-  itemElement.textContent = item + ' : ' + quantity;
+  itemElement.textContent = item + '  :  ' + quantity;
   
 }
 
